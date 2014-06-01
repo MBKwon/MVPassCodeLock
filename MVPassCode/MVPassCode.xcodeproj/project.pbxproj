@@ -21,6 +21,10 @@
 		F5600B1F193AB74800869593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5600B01193AB74800869593 /* UIKit.framework */; };
 		F5600B27193AB74800869593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5600B25193AB74800869593 /* InfoPlist.strings */; };
 		F5600B29193AB74800869593 /* MVPassCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B28193AB74800869593 /* MVPassCodeTests.m */; };
+		F5600B35193AB95200869593 /* MVPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B34193AB95200869593 /* MVPassButton.m */; };
+		F5600B36193AB95200869593 /* MVPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B34193AB95200869593 /* MVPassButton.m */; };
+		F5600B38193AB98B00869593 /* MVPassButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5600B37193AB98B00869593 /* MVPassButton.xib */; };
+		F5600B39193AB98B00869593 /* MVPassButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5600B37193AB98B00869593 /* MVPassButton.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,9 @@
 		F5600B24193AB74800869593 /* MVPassCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVPassCodeTests-Info.plist"; sourceTree = "<group>"; };
 		F5600B26193AB74800869593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5600B28193AB74800869593 /* MVPassCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPassCodeTests.m; sourceTree = "<group>"; };
+		F5600B33193AB95200869593 /* MVPassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVPassButton.h; path = "MVPass Library/MVPassButton.h"; sourceTree = "<group>"; };
+		F5600B34193AB95200869593 /* MVPassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVPassButton.m; path = "MVPass Library/MVPassButton.m"; sourceTree = "<group>"; };
+		F5600B37193AB98B00869593 /* MVPassButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MVPassButton.xib; path = "MVPass Library/MVPassButton.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +119,7 @@
 		F5600B03193AB74800869593 /* MVPassCode */ = {
 			isa = PBXGroup;
 			children = (
+				F5600B32193AB90F00869593 /* MVPass Lib */,
 				F5600B0C193AB74800869593 /* MVAppDelegate.h */,
 				F5600B0D193AB74800869593 /* MVAppDelegate.m */,
 				F5600B0F193AB74800869593 /* Main.storyboard */,
@@ -150,6 +158,16 @@
 				F5600B25193AB74800869593 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5600B32193AB90F00869593 /* MVPass Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F5600B33193AB95200869593 /* MVPassButton.h */,
+				F5600B34193AB95200869593 /* MVPassButton.m */,
+				F5600B37193AB98B00869593 /* MVPassButton.xib */,
+			);
+			name = "MVPass Lib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +250,7 @@
 				F5600B16193AB74800869593 /* Images.xcassets in Resources */,
 				F5600B08193AB74800869593 /* InfoPlist.strings in Resources */,
 				F5600B11193AB74800869593 /* Main.storyboard in Resources */,
+				F5600B38193AB98B00869593 /* MVPassButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5600B27193AB74800869593 /* InfoPlist.strings in Resources */,
+				F5600B39193AB98B00869593 /* MVPassButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +273,7 @@
 				F5600B0A193AB74800869593 /* main.m in Sources */,
 				F5600B14193AB74800869593 /* MVViewController.m in Sources */,
 				F5600B0E193AB74800869593 /* MVAppDelegate.m in Sources */,
+				F5600B35193AB95200869593 /* MVPassButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5600B29193AB74800869593 /* MVPassCodeTests.m in Sources */,
+				F5600B36193AB95200869593 /* MVPassButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

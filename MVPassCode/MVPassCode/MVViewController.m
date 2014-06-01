@@ -7,6 +7,7 @@
 //
 
 #import "MVViewController.h"
+#import "MVPass Library/MVPassButton.h"
 
 @interface MVViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    MVPassButton *passBtn = [[[NSBundle mainBundle] loadNibNamed:@"MVPassButton" owner:self options:nil] lastObject];
+    [passBtn setFrame:CGRectMake(100, 100, 80, 80)];
+    [self.view addSubview:passBtn];
 }
 
 - (void)didReceiveMemoryWarning
