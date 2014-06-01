@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MVPass Library/MVPassButton.h"
 
-@interface MVViewController : UIViewController
+@interface MVViewController : UIViewController <MVPassBtnDelegate>
 
 @end

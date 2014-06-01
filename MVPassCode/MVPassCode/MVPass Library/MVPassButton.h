@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol MVPassBtnDelegate <NSObject>
+
+-(void)touchPassBtn:(NSNumber *)passNum;
+
+@end
+
 @interface MVPassButton : UIControl
 
 @property (nonatomic, strong) IBOutlet UILabel *passNum;
+@property (nonatomic, strong) id<MVPassBtnDelegate> delegate;
 
 @end

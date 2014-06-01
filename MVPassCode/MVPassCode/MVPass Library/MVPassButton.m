@@ -116,6 +116,12 @@
     [UIView animateWithDuration:0.3 animations:^{
         [self setAlpha:1.0];
     }];
+    
+    if ([_delegate respondsToSelector:@selector(touchPassBtn:)] == YES) {
+        
+        int passNum = self.passNum.text.intValue;
+        [_delegate touchPassBtn:[NSNumber numberWithInt:passNum]];
+    }
 }
 
 @end

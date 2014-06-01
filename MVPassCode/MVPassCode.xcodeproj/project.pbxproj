@@ -479,6 +479,7 @@
 				F5600B2E193AB74800869593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F5600B2F193AB74800869593 /* Build configuration list for PBXNativeTarget "MVPassCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +488,7 @@
 				F5600B31193AB74800869593 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
