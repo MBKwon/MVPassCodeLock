@@ -14,17 +14,18 @@
 		F5600B0A193AB74800869593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B09193AB74800869593 /* main.m */; };
 		F5600B0E193AB74800869593 /* MVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B0D193AB74800869593 /* MVAppDelegate.m */; };
 		F5600B11193AB74800869593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5600B0F193AB74800869593 /* Main.storyboard */; };
-		F5600B14193AB74800869593 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B13193AB74800869593 /* MVViewController.m */; };
 		F5600B16193AB74800869593 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5600B15193AB74800869593 /* Images.xcassets */; };
 		F5600B1D193AB74800869593 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5600B1C193AB74800869593 /* XCTest.framework */; };
 		F5600B1E193AB74800869593 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5600AFD193AB74800869593 /* Foundation.framework */; };
 		F5600B1F193AB74800869593 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5600B01193AB74800869593 /* UIKit.framework */; };
 		F5600B27193AB74800869593 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5600B25193AB74800869593 /* InfoPlist.strings */; };
 		F5600B29193AB74800869593 /* MVPassCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B28193AB74800869593 /* MVPassCodeTests.m */; };
-		F5600B35193AB95200869593 /* MVPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B34193AB95200869593 /* MVPassButton.m */; };
-		F5600B36193AB95200869593 /* MVPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5600B34193AB95200869593 /* MVPassButton.m */; };
-		F5600B38193AB98B00869593 /* MVPassButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5600B37193AB98B00869593 /* MVPassButton.xib */; };
-		F5600B39193AB98B00869593 /* MVPassButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5600B37193AB98B00869593 /* MVPassButton.xib */; };
+		F562192C193B29E8008B5755 /* MVPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5621928193B29E8008B5755 /* MVPassButton.m */; };
+		F562192D193B29E8008B5755 /* MVPassButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F5621928193B29E8008B5755 /* MVPassButton.m */; };
+		F562192E193B29E8008B5755 /* MVPassButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5621929193B29E8008B5755 /* MVPassButton.xib */; };
+		F562192F193B29E8008B5755 /* MVPassButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5621929193B29E8008B5755 /* MVPassButton.xib */; };
+		F5621930193B29E8008B5755 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F562192B193B29E8008B5755 /* MVViewController.m */; };
+		F5621931193B29E8008B5755 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F562192B193B29E8008B5755 /* MVViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,17 +50,17 @@
 		F5600B0C193AB74800869593 /* MVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVAppDelegate.h; sourceTree = "<group>"; };
 		F5600B0D193AB74800869593 /* MVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVAppDelegate.m; sourceTree = "<group>"; };
 		F5600B10193AB74800869593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F5600B12193AB74800869593 /* MVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVViewController.h; sourceTree = "<group>"; };
-		F5600B13193AB74800869593 /* MVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVViewController.m; sourceTree = "<group>"; };
 		F5600B15193AB74800869593 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F5600B1B193AB74800869593 /* MVPassCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVPassCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5600B1C193AB74800869593 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F5600B24193AB74800869593 /* MVPassCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVPassCodeTests-Info.plist"; sourceTree = "<group>"; };
 		F5600B26193AB74800869593 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F5600B28193AB74800869593 /* MVPassCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVPassCodeTests.m; sourceTree = "<group>"; };
-		F5600B33193AB95200869593 /* MVPassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVPassButton.h; path = "MVPass Library/MVPassButton.h"; sourceTree = "<group>"; };
-		F5600B34193AB95200869593 /* MVPassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVPassButton.m; path = "MVPass Library/MVPassButton.m"; sourceTree = "<group>"; };
-		F5600B37193AB98B00869593 /* MVPassButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MVPassButton.xib; path = "MVPass Library/MVPassButton.xib"; sourceTree = "<group>"; };
+		F5621927193B29E8008B5755 /* MVPassButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVPassButton.h; path = MVPassCodeLock/MVPassButton.h; sourceTree = "<group>"; };
+		F5621928193B29E8008B5755 /* MVPassButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVPassButton.m; path = MVPassCodeLock/MVPassButton.m; sourceTree = "<group>"; };
+		F5621929193B29E8008B5755 /* MVPassButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MVPassButton.xib; path = MVPassCodeLock/MVPassButton.xib; sourceTree = "<group>"; };
+		F562192A193B29E8008B5755 /* MVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVViewController.h; path = MVPassCodeLock/MVViewController.h; sourceTree = "<group>"; };
+		F562192B193B29E8008B5755 /* MVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVViewController.m; path = MVPassCodeLock/MVViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,12 +120,10 @@
 		F5600B03193AB74800869593 /* MVPassCode */ = {
 			isa = PBXGroup;
 			children = (
-				F5600B32193AB90F00869593 /* MVPass Lib */,
+				F5600B32193AB90F00869593 /* MVPassCodeLock */,
 				F5600B0C193AB74800869593 /* MVAppDelegate.h */,
 				F5600B0D193AB74800869593 /* MVAppDelegate.m */,
 				F5600B0F193AB74800869593 /* Main.storyboard */,
-				F5600B12193AB74800869593 /* MVViewController.h */,
-				F5600B13193AB74800869593 /* MVViewController.m */,
 				F5600B15193AB74800869593 /* Images.xcassets */,
 				F5600B04193AB74800869593 /* Supporting Files */,
 			);
@@ -160,14 +159,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F5600B32193AB90F00869593 /* MVPass Lib */ = {
+		F5600B32193AB90F00869593 /* MVPassCodeLock */ = {
 			isa = PBXGroup;
 			children = (
-				F5600B33193AB95200869593 /* MVPassButton.h */,
-				F5600B34193AB95200869593 /* MVPassButton.m */,
-				F5600B37193AB98B00869593 /* MVPassButton.xib */,
+				F5621927193B29E8008B5755 /* MVPassButton.h */,
+				F5621928193B29E8008B5755 /* MVPassButton.m */,
+				F5621929193B29E8008B5755 /* MVPassButton.xib */,
+				F562192A193B29E8008B5755 /* MVViewController.h */,
+				F562192B193B29E8008B5755 /* MVViewController.m */,
 			);
-			name = "MVPass Lib";
+			name = MVPassCodeLock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +251,7 @@
 				F5600B16193AB74800869593 /* Images.xcassets in Resources */,
 				F5600B08193AB74800869593 /* InfoPlist.strings in Resources */,
 				F5600B11193AB74800869593 /* Main.storyboard in Resources */,
-				F5600B38193AB98B00869593 /* MVPassButton.xib in Resources */,
+				F562192E193B29E8008B5755 /* MVPassButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5600B27193AB74800869593 /* InfoPlist.strings in Resources */,
-				F5600B39193AB98B00869593 /* MVPassButton.xib in Resources */,
+				F562192F193B29E8008B5755 /* MVPassButton.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5600B0A193AB74800869593 /* main.m in Sources */,
-				F5600B14193AB74800869593 /* MVViewController.m in Sources */,
+				F562192C193B29E8008B5755 /* MVPassButton.m in Sources */,
 				F5600B0E193AB74800869593 /* MVAppDelegate.m in Sources */,
-				F5600B35193AB95200869593 /* MVPassButton.m in Sources */,
+				F5621930193B29E8008B5755 /* MVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5600B29193AB74800869593 /* MVPassCodeTests.m in Sources */,
-				F5600B36193AB95200869593 /* MVPassButton.m in Sources */,
+				F5621931193B29E8008B5755 /* MVViewController.m in Sources */,
+				F562192D193B29E8008B5755 /* MVPassButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
