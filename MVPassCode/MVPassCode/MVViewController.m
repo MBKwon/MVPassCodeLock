@@ -32,7 +32,7 @@
         
         MVPassButton *passBtn = [[[NSBundle mainBundle] loadNibNamed:@"MVPassButton" owner:self options:nil] lastObject];
         [passBtn setFrame:CGRectMake((i+1)*50, (i+1)*50, BTN_SIZE, BTN_SIZE)];
-        [passBtn.passNum setText:[NSString stringWithFormat:@"%d", i+1]];
+        [passBtn.passNum setText:[NSString stringWithFormat:@"%d", i]];
         [self.view addSubview:passBtn];
         
         [_passBtnArray addObject:passBtn];
