@@ -105,7 +105,7 @@
         [_passNumArray removeAllObjects];
         
         [_resultLabel setText:@"Pass code isn't correct"];
-        [_resultLabel setBackgroundColor:[UIColor redColor]];
+        [_resultLabel setBackgroundColor:[UIColor magentaColor]];
         [UIView animateWithDuration:0.3 animations:^{
             [_resultLabel setAlpha:1.0];
             

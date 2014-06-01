@@ -45,6 +45,26 @@
     
     _xDirection = 0.5;
     _yDirection = 0.5;
+    
+    int randomFlag = arc4random()%4;
+    switch (randomFlag) {
+        case 0:
+            _xDirection *= -1;
+            break;
+            
+        case 1:
+            _yDirection *= -1;
+            break;
+            
+        case 2:
+            _xDirection *= -1;
+            _yDirection *= -1;
+            break;
+            
+        default:
+            break;
+    }
+    
     [NSTimer scheduledTimerWithTimeInterval:0.01
                                      target:self
                                    selector:@selector(moveBtn)
@@ -55,18 +75,10 @@
 -(void)moveBtn
 {
     [self checkCollisionInScreen];
-    if ([self checkCollision] == NO) {
-        
-        CGPoint center = self.center;
-        center.x += _xDirection;
-        center.y += _yDirection;
-        [self setCenter:center];
-    }
-}
-
--(BOOL)checkCollision
-{
-    return NO;
+    CGPoint center = self.center;
+    center.x += _xDirection;
+    center.y += _yDirection;
+    [self setCenter:center];
 }
 
 -(void)checkCollisionInScreen
