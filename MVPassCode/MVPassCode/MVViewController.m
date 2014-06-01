@@ -86,11 +86,35 @@
         
         NSLog(@"pass code is correct");
         [_passNumArray removeAllObjects];
+        
+        [_resultLabel setText:@"Pass code is correct"];
+        [_resultLabel setBackgroundColor:[UIColor greenColor]];
+        [UIView animateWithDuration:0.3 animations:^{
+            [_resultLabel setAlpha:1.0];
+            
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:2.0 animations:^{
+                [_resultLabel setAlpha:0.0];
+            }];
+        }];
+        
         return YES;
     } else {
         
-        NSLog(@"pass code isn't correct");
+        NSLog(@"Pass code isn't correct");
         [_passNumArray removeAllObjects];
+        
+        [_resultLabel setText:@"Pass code isn't correct"];
+        [_resultLabel setBackgroundColor:[UIColor redColor]];
+        [UIView animateWithDuration:0.3 animations:^{
+            [_resultLabel setAlpha:1.0];
+            
+        } completion:^(BOOL finished) {
+            [UIView animateWithDuration:2.0 animations:^{
+                [_resultLabel setAlpha:0.0];
+            }];
+        }];
+        
         return NO;
     }
 }

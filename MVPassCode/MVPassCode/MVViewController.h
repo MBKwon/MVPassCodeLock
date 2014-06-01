@@ -11,4 +11,6 @@
 
 @interface MVViewController : UIViewController <MVPassBtnDelegate>
 
+@property (nonatomic, strong) IBOutlet UILabel *resultLabel;
+
 @end
