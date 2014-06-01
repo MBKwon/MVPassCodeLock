@@ -37,6 +37,9 @@
                 <constraint firstAttribute="bottom" secondItem="y5Z-T2-j7u" secondAttribute="bottom" id="sWc-LM-VFD"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="passNum" destination="y5Z-T2-j7u" id="GRB-Kj-1Lc"/>
+            </connections>
         </view>
     </objects>
     <resources>

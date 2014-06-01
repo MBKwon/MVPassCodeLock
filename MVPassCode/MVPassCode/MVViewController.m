@@ -9,7 +9,12 @@
 #import "MVViewController.h"
 #import "MVPass Library/MVPassButton.h"
 
+#define NUM_OF_BTNS 4
+#define BTN_SIZE 60
+
 @interface MVViewController ()
+
+@property (nonatomic, strong) NSMutableArray *passBtnArray;
 
 @end
 
@@ -19,15 +24,30 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    MVPassButton *passBtn = [[[NSBundle mainBundle] loadNibNamed:@"MVPassButton" owner:self options:nil] lastObject];
-    [passBtn setFrame:CGRectMake(100, 100, 80, 80)];
-    [self.view addSubview:passBtn];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+    
+    _passBtnArray = [NSMutableArray new];
+    
+    for (int i=0; i<NUM_OF_BTNS; i++) {
+        
+        MVPassButton *passBtn = [[[NSBundle mainBundle] loadNibNamed:@"MVPassButton" owner:self options:nil] lastObject];
+        [passBtn setFrame:CGRectMake((i+1)*50, (i+1)*50, BTN_SIZE, BTN_SIZE)];
+        [passBtn.passNum setText:[NSString stringWithFormat:@"%d", i+1]];
+        [self.view addSubview:passBtn];
+        
+        [_passBtnArray addObject:passBtn];
+    }
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 @end

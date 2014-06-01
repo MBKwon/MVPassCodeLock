@@ -10,4 +10,6 @@
 
 @interface MVPassButton : UIControl
 
+@property (nonatomic, strong) IBOutlet UILabel *passNum;
+
 @end
